@@ -1,0 +1,14 @@
+C:\Users\rahul\Downloads\SnipSnap\ShellBasics\bin\Release\ShellBasics.dll
+C:\Users\rahul\Downloads\SnipSnap\ShellBasics\obj\Release\ShellLib.ApplicationDesktopToolbar.resources
+C:\Users\rahul\Downloads\SnipSnap\ShellBasics\obj\Release\ShellLib.csproj.GenerateResource.Cache
+C:\Users\rahul\Downloads\SnipSnap\ShellBasics\obj\Release\ShellBasics.dll
+C:\Users\rahul\Downloads\SnipSnapSolution\ShellBasics\bin\Release\ShellBasics.dll
+C:\Users\rahul\Downloads\SnipSnapSolution\ShellBasics\obj\Release\ShellLib.ApplicationDesktopToolbar.resources
+C:\Users\rahul\Downloads\SnipSnapSolution\ShellBasics\obj\Release\ShellLib.csproj.GenerateResource.Cache
+C:\Users\rahul\Downloads\SnipSnapSolution\ShellBasics\obj\Release\ShellBasics.dll
+C:\Users\rahul\Downloads\SnipSnapSolution\ShellBasics\obj\Release\ShellLib.csprojResolveAssemblyReference.cache
+C:\Users\rahul\Downloads\SnipDockSolution\ShellBasics\bin\Release\ShellBasics.dll
+C:\Users\rahul\Downloads\SnipDockSolution\ShellBasics\obj\Release\ShellLib.csprojResolveAssemblyReference.cache
+C:\Users\rahul\Downloads\SnipDockSolution\ShellBasics\obj\Release\ShellLib.ApplicationDesktopToolbar.resources
+C:\Users\rahul\Downloads\SnipDockSolution\ShellBasics\obj\Release\ShellLib.csproj.GenerateResource.Cache
+C:\Users\rahul\Downloads\SnipDockSolution\ShellBasics\obj\Release\ShellBasics.dll

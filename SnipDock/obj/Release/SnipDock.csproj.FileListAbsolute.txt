@@ -1,0 +1,12 @@
+C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\bin\Release\SnipDock.exe.manifest
+C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\bin\Release\SnipDock.application
+C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\bin\Release\SnipDock.exe
+C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\bin\Release\ShellBasics.dll
+C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Release\SnipDock.csprojResolveAssemblyReference.cache
+C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Release\SnipDock.frmMain.resources
+C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Release\SnipDock.Properties.Resources.resources
+C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Release\SnipDock.csproj.GenerateResource.Cache
+C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Release\SnipDock.TrustInfo.xml
+C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Release\SnipDock.exe.manifest
+C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Release\SnipDock.application
+C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Release\SnipDock.exe

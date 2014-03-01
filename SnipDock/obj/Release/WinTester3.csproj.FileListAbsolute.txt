@@ -1,0 +1,10 @@
+C:\Users\rahul\Downloads\SnipSnap\WinTester3\obj\Release\WinTester3.exe
+C:\Users\rahul\Downloads\SnipSnap\WinTester3\bin\Release\WinTester3.exe
+C:\Users\rahul\Downloads\SnipSnap\WinTester3\bin\Release\ShellBasics.dll
+C:\Users\rahul\Downloads\SnipSnap\WinTester3\obj\Release\WinTester3.csprojResolveAssemblyReference.cache
+C:\Users\rahul\Downloads\SnipSnap\WinTester3\obj\Release\WinTester3.frmMain.resources
+C:\Users\rahul\Downloads\SnipSnap\WinTester3\obj\Release\WinTester3.Properties.Resources.resources
+C:\Users\rahul\Downloads\SnipSnap\WinTester3\obj\Release\WinTester3.csproj.GenerateResource.Cache
+C:\Users\rahul\Downloads\SnipSnap\WinTester3\bin\Release\WinTester3.exe.config
+C:\Users\rahul\Downloads\SnipSnap\WinTester3\bin\Release\SnipSnap.exe.config
+C:\Users\rahul\Downloads\SnipSnap\WinTester3\obj\Release\SnipSnap.Properties.Resources.resources

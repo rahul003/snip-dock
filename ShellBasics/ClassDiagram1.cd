@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ShellLib.ApplicationDesktopToolbar" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAgWAAAAEhBhAAEQEAAgAACACAIBAAAAAAAwAQAgEA=</HashCode>
+      <FileName>ApplicationDesktopToolbar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShellLib.FilterByExtension" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAQQAAAAAAA=</HashCode>
+      <FileName>FilterByExtension.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShellLib.ShellAddRecent" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShellAddRecent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShellLib.ShellApi" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAKAACAQIAAAAgAAAAIQBQABAAAAEBAFBAACAA=</HashCode>
+      <FileName>ShellApi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShellLib.ShellBrowseForFolderDialog" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAECAAAAAAgMAAAKQoAAEGAAAAABAASgAAAAAAAiQ=</HashCode>
+      <FileName>ShellBrowseForFolderDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShellLib.ShellExecute" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAKAAAQAEAAYgAAAAAAAAAACEAEAAAIAAAAAAAAA=</HashCode>
+      <FileName>ShellExecute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShellLib.ShellFileOperation" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAQAAAAAAAAAAAAQAAgABAAEABAAAABA=</HashCode>
+      <FileName>ShellFileOperation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShellLib.ShellFunctions" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAACIQAgAAAAAAAAQAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShellFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShellLib.ShellGUIDs" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAGAAAAAAAAA=</HashCode>
+      <FileName>ShellGUIDs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ShellLib.IFolderFilter" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQAAAAAAA=</HashCode>
+      <FileName>IFolderFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ShellLib.IFolderFilterSite" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFolderFilterSite.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ShellLib.IMalloc" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAACAAAAAAAgAAEAAEAAAAAAAAAAAAAI=</HashCode>
+      <FileName>IMalloc.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ShellLib.IShellFolder" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAgAAAAAQABAAAAQAAEQCAIAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>IShellFolder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
