@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellLib", "ShellBasics\ShellLib.csproj", "{B748E75E-AFF9-4FEA-8581-7F04AD5DA539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinTester3", "WinTester3\WinTester3.csproj", "{B100D817-BCCA-4DDE-ADC7-04D9E7681B34}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B748E75E-AFF9-4FEA-8581-7F04AD5DA539}.Debug.ActiveCfg = Debug|.NET
+		{B748E75E-AFF9-4FEA-8581-7F04AD5DA539}.Debug.Build.0 = Debug|.NET
+		{B748E75E-AFF9-4FEA-8581-7F04AD5DA539}.Release.ActiveCfg = Release|.NET
+		{B748E75E-AFF9-4FEA-8581-7F04AD5DA539}.Release.Build.0 = Release|.NET
+		{B100D817-BCCA-4DDE-ADC7-04D9E7681B34}.Debug.ActiveCfg = Debug|.NET
+		{B100D817-BCCA-4DDE-ADC7-04D9E7681B34}.Debug.Build.0 = Debug|.NET
+		{B100D817-BCCA-4DDE-ADC7-04D9E7681B34}.Release.ActiveCfg = Release|.NET
+		{B100D817-BCCA-4DDE-ADC7-04D9E7681B34}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+C:\Users\rahul\Downloads\ShellBasics\ShellBasics\bin\Debug\ShellBasics.dll
+C:\Users\rahul\Downloads\ShellBasics\ShellBasics\bin\Debug\ShellBasics.pdb
+C:\Users\rahul\Downloads\ShellBasics\ShellBasics\obj\Debug\ShellLib.ApplicationDesktopToolbar.resources
+C:\Users\rahul\Downloads\ShellBasics\ShellBasics\obj\Debug\ShellLib.csproj.GenerateResource.Cache
+C:\Users\rahul\Downloads\ShellBasics\ShellBasics\obj\Debug\ShellBasics.dll
+C:\Users\rahul\Downloads\ShellBasics\ShellBasics\obj\Debug\ShellBasics.pdb

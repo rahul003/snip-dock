@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellLib", "ShellBasics\ShellLib.csproj", "{B748E75E-AFF9-4FEA-8581-7F04AD5DA539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinTester3", "WinTester3\WinTester3.csproj", "{B100D817-BCCA-4DDE-ADC7-04D9E7681B34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B748E75E-AFF9-4FEA-8581-7F04AD5DA539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B748E75E-AFF9-4FEA-8581-7F04AD5DA539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B748E75E-AFF9-4FEA-8581-7F04AD5DA539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B748E75E-AFF9-4FEA-8581-7F04AD5DA539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B100D817-BCCA-4DDE-ADC7-04D9E7681B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B100D817-BCCA-4DDE-ADC7-04D9E7681B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B100D817-BCCA-4DDE-ADC7-04D9E7681B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B100D817-BCCA-4DDE-ADC7-04D9E7681B34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
