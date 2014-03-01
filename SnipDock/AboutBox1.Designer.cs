@@ -37,11 +37,11 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -110,7 +110,7 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 344F));
             this.tableLayoutPanel1.Controls.Add(this.label6, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label7, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label9, 0, 2);
@@ -154,16 +154,6 @@
             this.label7.Text = "On clicking Snip Screen, you will be shown a screen where you can snip whatever p" +
                 "ortion of the screen interests you";
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(3, 289);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(332, 32);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "Any image snipped will be automatically stored in your Pictures folder";
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -206,6 +196,16 @@
             this.label12.Text = "You can choose which edge to dock to, using the Radio buttons. You can also use t" +
                 "he checkbox to turn this off, if you only want to store snipped images to your P" +
                 "ictures folder.";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(3, 289);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(332, 32);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Any image snipped will be automatically stored in your Pictures folder";
             // 
             // label13
             // 

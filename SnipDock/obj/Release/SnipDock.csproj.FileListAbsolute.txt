@@ -10,3 +10,4 @@ C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Release\SnipDock.TrustInf
 C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Release\SnipDock.exe.manifest
 C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Release\SnipDock.application
 C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Release\SnipDock.exe
+C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Release\SnipDock.AboutBox1.resources

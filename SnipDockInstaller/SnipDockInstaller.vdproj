@@ -21,18 +21,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_9A66FEEFD31522F18C164637BCF89B27"
+        "OwnerKey" = "8:_9D42FC603A114F62AE65B70ACC0743F5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_9D42FC603A114F62AE65B70ACC0743F5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_D3953CB7ABAFB9AFE343534040FF1577"
-        "OwnerKey" = "8:_9D42FC603A114F62AE65B70ACC0743F5"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_9D42FC603A114F62AE65B70ACC0743F5"
         "MsmSig" = "8:_UNDEFINED"
@@ -40,7 +40,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D3953CB7ABAFB9AFE343534040FF1577"
+        "OwnerKey" = "8:_9A66FEEFD31522F18C164637BCF89B27"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -138,7 +138,7 @@
             {
                 "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_7036FA0F236D4EB78A7F2599EFFCE3B9"
                 {
-                "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                "Name" = "8:Microsoft .NET Framework 4"
                 "Message" = "8:[VSDNETMSG]"
                 "FrameworkVersion" = "8:.NETFramework,Version=v4.0"
                 "AllowLaterVersions" = "11:FALSE"
@@ -168,14 +168,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D3953CB7ABAFB9AFE343534040FF1577"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9A66FEEFD31522F18C164637BCF89B27"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ShellBasics, Version=1.0.5173.32496, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:ShellBasics, Version=1.0.5173.34548, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_D3953CB7ABAFB9AFE343534040FF1577"
+                    "_9A66FEEFD31522F18C164637BCF89B27"
                     {
                     "Name" = "8:ShellBasics.dll"
                     "Attributes" = "3:512"
@@ -256,7 +256,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SnipDock"
         "ProductCode" = "8:{DF5328CA-57DE-4E86-ABB2-CDE60C0F2BAA}"
-        "PackageCode" = "8:{2FB1DFF2-168E-41FD-8AA3-FFFE2E21972E}"
+        "PackageCode" = "8:{7C7849AA-AD83-46B2-88CC-54EE7D2E8725}"
         "UpgradeCode" = "8:{6CE1FE09-6A87-4FA5-A63F-E164FDB58D1A}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -376,21 +376,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_0398D6E1C0884011BAF850526A3A2F1A"
-            {
-            "Name" = "8:SnipDock"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_9D42FC603A114F62AE65B70ACC0743F5"
-            "Folder" = "8:_0EAE7F6797B44C8CA955CAD5955F797A"
-            "WorkingFolder" = "8:_C1F57D9427834829A87101B3EC17AB80"
-            "Icon" = "8:_713FE556BDEE4BDD95D909A704612F96"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_64C46630F104413AA4D03B5F815248EA"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_92412508696B4C6DB45D932B5B829C15"
             {
             "Name" = "8:SnipDock"
             "Arguments" = "8:"
@@ -400,6 +386,20 @@
             "Transitive" = "11:FALSE"
             "Target" = "8:_9D42FC603A114F62AE65B70ACC0743F5"
             "Folder" = "8:_D38CA0F3FC57412DB58253133A8430E3"
+            "WorkingFolder" = "8:_C1F57D9427834829A87101B3EC17AB80"
+            "Icon" = "8:_713FE556BDEE4BDD95D909A704612F96"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A2CFAB5FE7D34C92B5714F88CB8B1B2B"
+            {
+            "Name" = "8:SnipDock"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_9D42FC603A114F62AE65B70ACC0743F5"
+            "Folder" = "8:_0EAE7F6797B44C8CA955CAD5955F797A"
             "WorkingFolder" = "8:_C1F57D9427834829A87101B3EC17AB80"
             "Icon" = "8:_713FE556BDEE4BDD95D909A704612F96"
             "Feature" = "8:"
@@ -805,7 +805,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_9D42FC603A114F62AE65B70ACC0743F5"
             {
-            "SourcePath" = "8:"
+            "SourcePath" = "8:..\\SnipDock\\obj\\Debug\\SnipDock.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_C1F57D9427834829A87101B3EC17AB80"
