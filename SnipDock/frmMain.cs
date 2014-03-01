@@ -25,6 +25,8 @@ namespace SnipDock
         private Label label1;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
+        private Button button3;
+        private Label label2;
         private CheckBox checkBox1;
         //private System.ComponentModel.Container components = null;
 
@@ -45,6 +47,8 @@ namespace SnipDock
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -52,7 +56,7 @@ namespace SnipDock
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button1.Location = new System.Drawing.Point(6, 85);
+            this.button1.Location = new System.Drawing.Point(8, 102);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 26);
             this.button1.TabIndex = 10;
@@ -62,7 +66,7 @@ namespace SnipDock
             // 
             // rdoFloat
             // 
-            this.rdoFloat.Location = new System.Drawing.Point(75, 63);
+            this.rdoFloat.Location = new System.Drawing.Point(104, 79);
             this.rdoFloat.Name = "rdoFloat";
             this.rdoFloat.Size = new System.Drawing.Size(60, 16);
             this.rdoFloat.TabIndex = 9;
@@ -71,25 +75,25 @@ namespace SnipDock
             // 
             // rdoRight
             // 
-            this.rdoRight.Location = new System.Drawing.Point(75, 40);
+            this.rdoRight.Location = new System.Drawing.Point(53, 74);
             this.rdoRight.Name = "rdoRight";
-            this.rdoRight.Size = new System.Drawing.Size(60, 26);
+            this.rdoRight.Size = new System.Drawing.Size(52, 26);
             this.rdoRight.TabIndex = 8;
             this.rdoRight.Text = "Right";
             this.rdoRight.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
             // 
             // rdoLeft
             // 
-            this.rdoLeft.Location = new System.Drawing.Point(75, 23);
+            this.rdoLeft.Location = new System.Drawing.Point(8, 76);
             this.rdoLeft.Name = "rdoLeft";
-            this.rdoLeft.Size = new System.Drawing.Size(60, 22);
+            this.rdoLeft.Size = new System.Drawing.Size(50, 22);
             this.rdoLeft.TabIndex = 7;
             this.rdoLeft.Text = "Left";
             this.rdoLeft.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(91, 84);
+            this.button2.Location = new System.Drawing.Point(104, 104);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(39, 26);
             this.button2.TabIndex = 12;
@@ -102,19 +106,18 @@ namespace SnipDock
             this.checkBox1.AutoSize = true;
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.Location = new System.Drawing.Point(11, 3);
+            this.checkBox1.Location = new System.Drawing.Point(10, 57);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(108, 17);
             this.checkBox1.TabIndex = 14;
             this.checkBox1.Text = "Snips go to Dock";
             this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // label1
             // 
             this.label1.AutoEllipsis = true;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 119);
+            this.label1.Location = new System.Drawing.Point(8, 131);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 15;
@@ -123,9 +126,10 @@ namespace SnipDock
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(11, 138);
+            this.pictureBox1.Location = new System.Drawing.Point(8, 147);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
             // 
@@ -133,18 +137,40 @@ namespace SnipDock
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.InitialImage = null;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 23);
+            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(58, 60);
+            this.pictureBox2.Size = new System.Drawing.Size(46, 48);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 20;
             this.pictureBox2.TabStop = false;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(65, 22);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(53, 24);
+            this.button3.TabIndex = 21;
+            this.button3.Text = "Help";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(62, 3);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(67, 16);
+            this.label2.TabIndex = 22;
+            this.label2.Text = "SnipDock";
             // 
             // frmMain
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(138, 362);
+            this.ClientSize = new System.Drawing.Size(151, 177);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
@@ -157,7 +183,7 @@ namespace SnipDock
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMain";
             this.Padding = new System.Windows.Forms.Padding(0, 0, 5, 0);
-            this.Text = "SnipSnap";
+            this.Text = "SnipDock";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -267,24 +293,7 @@ namespace SnipDock
             this.Show();
            
         }
-        /*
-        protected override bool ProcessCmdKey(ref System.Windows.Forms.Message msg,
-        System.Windows.Forms.Keys keyData)
-        {
-            if (tabControl1.SelectedTab == tabPageImageViewer)
-            {
-                Point AP = objImageViewer1.AutoScrollPosition;
-                if (msg.WParam.ToInt32() == (int)Keys.Left) AP = new Point(-AP.X - oUserPrefs.horizontalOffset, -AP.Y);
-                else if (msg.WParam.ToInt32() == (int)Keys.Right) AP = new Point(-AP.X + oUserPrefs.horizontalOffset, -AP.Y);
-                else if (msg.WParam.ToInt32() == (int)Keys.Down) AP = new Point(-AP.X, -AP.Y + oUserPrefs.verticalOffset);
-                else if (msg.WParam.ToInt32() == (int)Keys.Up) AP = new Point(-AP.X, -AP.Y - oUserPrefs.verticalOffset);
-                else return base.ProcessCmdKey(ref msg, keyData);
-                objImageViewer1.AutoScrollPosition = AP;
-                return true;
-            }
-            return base.ProcessCmdKey(ref msg, keyData);
-        }
-        */
+       
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -324,16 +333,47 @@ namespace SnipDock
         private void clearsnip()
         {
            
-            /*this.objImageViewer1.AutoScrollMargin = new System.Drawing.Size(75, 23);
-            this.objImageViewer1.Image = null;
-            this.objImageViewer1.Size = new System.Drawing.Size(75, 23);
-            this.objImageViewer1.Zoom = 1F;*/
             this.pictureBox1.Image = null;
             this.pictureBox1.Size = new Size(100, 50);
             this.label1.Text = "";
             this.label1.Visible = false;  
             this.Size = new System.Drawing.Size(141, this.Height);
         }
+
+        protected override void OnMouseWheel(MouseEventArgs mea)
+        {
+            // Override OnMouseWheel event, for zooming in/out with the scroll wheel
+            if (pictureBox1.Image != null)
+            {
+                // If the mouse wheel is moved forward (Zoom in)
+                if (mea.Delta > 0)
+                {
+                    // Check if the pictureBox dimensions are in range (15 is the minimum and maximum zoom level)
+                    if ((pictureBox1.Width < (15 * this.Width)) && (pictureBox1.Height < (15 * this.Height)))
+                    {
+                        // Change the size of the picturebox, multiply it by the ZOOMFACTOR
+                        pictureBox1.Width = (int)(pictureBox1.Width * 1.25);
+                        pictureBox1.Height = (int)(pictureBox1.Height * 1.25);
+
+                    }
+                }
+                else
+                {
+                    // Check if the pictureBox dimensions are in range (15 is the minimum and maximum zoom level)
+                    if ((pictureBox1.Width > (this.Width / 15)) && (pictureBox1.Height > (this.Height / 15)))
+                    {
+                        // Change the size of the picturebox, divide it by the ZOOMFACTOR
+                        pictureBox1.Width = (int)(pictureBox1.Width / 1.25);
+                        pictureBox1.Height = (int)(pictureBox1.Height / 1.25);
+
+                        this.Size = new Size(pictureBox1.Width, pictureBox1.Height); 
+
+                    }
+                }
+            }
+        }
+
+        Boolean user_updating = false;
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
@@ -347,34 +387,13 @@ namespace SnipDock
             }
 
         }
-        /*
+
         private void button3_Click(object sender, EventArgs e)
         {
-            
-            this.objImageViewer1.Zoom -= 0.1F;
-            if (this.objImageViewer1.Image != null)
-            {
-                int newwidth = this.objImageViewer1.Image.Width - (this.objImageViewer1.Image.Width / 10);
-                int newheight = this.objImageViewer1.Image.Height - (this.objImageViewer1.Image.Height / 10);
-                this.objImageViewer1.Size = new Size(newwidth, newheight);
-            }
+            AboutBox1 AboutForm = new AboutBox1();
+            AboutForm.Show();
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            this.objImageViewer1.Zoom = 1F;
-        }
-        */
-        
-        
-        
-
-       
-       
-        
-
-
-     
         #region tryingKeybinding
         /* gkh.HookedKeys.Add(Keys.LShiftKey);
            gkh.HookedKeys.Add(Keys.LControlKey);
@@ -420,6 +439,7 @@ namespace SnipDock
        }
            */
         #endregion tryingKeybinding
+
     }
 
 }

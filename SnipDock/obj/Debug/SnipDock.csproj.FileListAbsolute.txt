@@ -28,3 +28,4 @@ C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Debug\SnipDock.exe.manife
 C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Debug\SnipDock.application
 C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Debug\SnipDock.exe
 C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Debug\SnipDock.pdb
+C:\Users\rahul\Downloads\SnipDockSolution\SnipDock\obj\Debug\SnipDock.AboutBox1.resources
