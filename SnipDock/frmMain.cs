@@ -7,7 +7,6 @@ using System.Windows.Forms;
 using System.Data;
 using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
-using Utilities;
 using System.Threading;
 using System.IO;
 
@@ -27,6 +26,7 @@ namespace SnipDock
         private PictureBox pictureBox2;
         private Button button3;
         private Label label2;
+        private Label label3;
         private CheckBox checkBox1;
         //private System.ComponentModel.Container components = null;
 
@@ -49,13 +49,14 @@ namespace SnipDock
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Location = new System.Drawing.Point(8, 102);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 26);
@@ -68,7 +69,7 @@ namespace SnipDock
             // 
             this.rdoFloat.Location = new System.Drawing.Point(104, 79);
             this.rdoFloat.Name = "rdoFloat";
-            this.rdoFloat.Size = new System.Drawing.Size(60, 16);
+            this.rdoFloat.Size = new System.Drawing.Size(51, 17);
             this.rdoFloat.TabIndex = 9;
             this.rdoFloat.Text = "Float";
             this.rdoFloat.CheckedChanged += new System.EventHandler(this.rdo_CheckedChanged);
@@ -93,7 +94,8 @@ namespace SnipDock
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(104, 104);
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Location = new System.Drawing.Point(104, 102);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(39, 26);
             this.button2.TabIndex = 12;
@@ -112,12 +114,14 @@ namespace SnipDock
             this.checkBox1.TabIndex = 14;
             this.checkBox1.Text = "Snips go to Dock";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.AutoEllipsis = true;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 131);
+            this.label1.Location = new System.Drawing.Point(7, 254);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 15;
@@ -126,7 +130,7 @@ namespace SnipDock
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(8, 147);
+            this.pictureBox1.Location = new System.Drawing.Point(8, 163);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 50);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -137,7 +141,7 @@ namespace SnipDock
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.InitialImage = null;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(10, 6);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(46, 48);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -146,7 +150,8 @@ namespace SnipDock
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(65, 22);
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Location = new System.Drawing.Point(65, 27);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(53, 24);
             this.button3.TabIndex = 21;
@@ -164,11 +169,20 @@ namespace SnipDock
             this.label2.TabIndex = 22;
             this.label2.Text = "SnipDock";
             // 
+            // label3
+            // 
+            this.label3.Location = new System.Drawing.Point(10, 132);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(161, 29);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "Zoom in or out by scrolling mouse on the image";
+            // 
             // frmMain
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(151, 177);
+            this.ClientSize = new System.Drawing.Size(157, 277);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.pictureBox2);
@@ -373,8 +387,6 @@ namespace SnipDock
             }
         }
 
-        Boolean user_updating = false;
-
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox1.Checked)
@@ -393,6 +405,8 @@ namespace SnipDock
             AboutBox1 AboutForm = new AboutBox1();
             AboutForm.Show();
         }
+
+     
 
         #region tryingKeybinding
         /* gkh.HookedKeys.Add(Keys.LShiftKey);

@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SnipDock.exe" size="110592">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SnipDock.exe" size="106496">
       <assemblyIdentity name="SnipDock" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>WH5k462g+HqjxcD58/Kcb10BUvU=</dsig:DigestValue>
+        <dsig:DigestValue>Xi71V8Oaq+gkMDbWk2RlYhX8jv4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
