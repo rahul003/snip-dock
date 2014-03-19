@@ -10,7 +10,8 @@ $.ajax({
     success: function(results){ 
         gitdl = results.data[0].assets[0].download_count;
         console.log(gitdl);
-        $("#dynamic").append("<a><span class='octicon octicon-cloud-download'>Downloads: On github : "+ gitdl+"</span></a>");
+
+        $("#downcount").append("<strong style='font-size:22px'> Downloads On Github : " +gitdl+"</strong>");
     	
     }
 });
