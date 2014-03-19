@@ -1,114 +1,92 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset='utf-8' />
-  <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-  <meta name="description" content="SnipDock : SnipDock, a windows utility to snip a part of the screen and snap it like a dock to the edge of the screen" />
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
-  <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/btn.css">
-  <script type="text/javascript" src="javascripts/apis.js"></script>
-  <title>SnipDock</title>
-</head>
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="SnipDock : SnipDock, a windows utility to snip a part of the screen and snap it like a dock to the edge of the screen" />
 
-<body>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-  <!-- HEADER -->
-  <div id="header_wrap" class="outer">
-    <header class="inner">
-      <a id="forkme_banner" href="https://github.com/rahul003/snip-dock">View on GitHub</a>
+    <title>SnipDock</title>
+  </head>
 
-      <h1 id="project_title">SnipDock</h1>
-      <h2 id="project_tagline">SnipDock, a windows utility to snip a part of the screen and snap it like a dock to the edge of the screen</h2>
-      <div id="dynamic"></div>
+  <body>
 
-    </header>
-  </div>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/rahul003/snip-dock">View on GitHub</a>
 
-  <!-- MAIN CONTENT -->
-  <div id="main_content_wrap" class="outer">
-    <section id="main_content" class="inner">
-<!-- <div>
+          <h1 id="project_title">SnipDock</h1>
+          <h2 id="project_tagline">SnipDock, a windows utility to snip a part of the screen and snap it like a dock to the edge of the screen</h2>
 
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/rahul003/snip-dock/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/rahul003/snip-dock/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
 
-  <span style="width:250px">
-  <button class="ghtbtn" style="float:none" href="http://github.com/rahul003/snip-dock/releases/download/1.0/SnipDockInstaller.msi">
-  <img src="https://c.fsdn.com/allura/p/snipdock/icon" alt="Logo" style="margin-top:-8px;"</img>
-  <strong>Download SnipDock Installer</strong>
-  </button>
-  </span>
-</div>
- -->
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p><img src="https://c.fsdn.com/allura/p/snipdock/icon" alt="Logo"><a href="http://github.com/rahul003/snip-dock/releases/download/1.0/SnipDockInstaller.msi"><strong>Download SnipDock Installer</strong></a></p>
 
-<table style="border:none">
-  <tr>
-    <td style="vertical-align:middle;" > <img src="https://c.fsdn.com/allura/p/snipdock/icon" alt="Logo"/></td>
-    <td style="vertical-align:middle;"><button class="ghtbtn" style="float:none" href="http://github.com/rahul003/snip-dock/releases/download/1.0/SnipDockInstaller.msi">
-  <strong>Download SnipDock Installer</strong></td>
-  </tr>
-</table>
-      <div id="downcount">
+<p>Snip screenshots and dock them so you can refer to them while working. Installer sets up a shortcut on desktop to run the program. 
+Example Usecase: While reading up something and you need to keep referring to an image</p>
 
-      </div>
-      <p>Snip screenshots and dock them so you can refer to them while working. Installer sets up a shortcut on desktop to run the program. 
-        Example Usecase: While reading up something and you need to refer to an image always</p>
+<p><em>Requires at least .NET Framework 4.0</em>
+<em>(Runs only on Windows)</em></p>
 
-        <p><i>Requires at least .NET Framework 4.0
-          (Runs only on Windows)</i></p>
-          <hr>
-          <h2>
-            <a name="featured-here" class="anchor" href="#featured-here"><span class="octicon octicon-link"></span></a>Featured here</h2>
+<hr><h2>
+<a name="featured-here" class="anchor" href="#featured-here"><span class="octicon octicon-link"></span></a>Featured here</h2>
 
-            <ul>
-              <li>4.5 Stars: <a href="http://www.softpedia.com/get/Multimedia/Graphic/Graphic-Capture/SnipDock.shtml"><em>Editor's Review, Softpedia</em></a>
-              </li>
-              <li>5 Stars: <a href="http://www.programosy.pl/program,snipdock.html"><em>Editor's Review, Programosy.pl</em></a></li>
-              <li>5 Stars: <a href="http://www.ilovefreesoftware.com/04/windows/screen-capture-tool-capture-desktop-screen-save-screenshot-pc.html" title="Free Software" ><em>I Love Free Software</em></a>
-              </li>
-            </ul>
-            <hr>
-            <h2>
-            <a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features:</h2>
-              <ul>
-                <li>Snip Screen: snip whatever portion of the screen interests you.</li>
-                <li>Dock: This snipped image will be docked on a screen edge or as a floating popup.</li>
-                <li>Whatever be the size of the image, the dock will automatically adjust its size. When docked, no other program can encroach the space used by SnipDock, even if they are maximized.</li>
-                <li>You can zoom in or zoom out of the image by scrolling your mouse on the image.</li>
-                <li>Any image snipped will be automatically stored in your Pictures folder. So you could also use SnipDock just to snip screen and store the images.</li>
-              </ul><hr>
+<ul>
+<li>4.5 Stars: <a href="http://www.softpedia.com/get/Multimedia/Graphic/Graphic-Capture/SnipDock.shtml"><em>Editor's Review, Softpedia</em></a>
+</li>
+<li>5 Stars: <a href="http://www.programosy.pl/program,snipdock.html"><em>Editor's Review, Programosy.pl</em></a>
+</li>
+<li>5 Stars: <a href="http://www.ilovefreesoftware.com/04/windows/screen-capture-tool-capture-desktop-screen-save-screenshot-pc.html"><em>I Love Free Software</em></a>
+</li>
+</ul><hr><h2>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features:</h2>
 
-              <h2>Screenshots</h2><ul>
-              <li><h3>
-              <a name="in-action" class="anchor" href="#in-action"><span class="octicon octicon-link"></span></a>In Action</h3>
+<ul>
+<li>Snip Screen: snip whatever portion of the screen interests you.</li>
+<li>Dock: This snipped image will be docked on a screen edge or as a floating popup.</li>
+<li>Whatever be the size of the image, the dock will automatically adjust its size. When docked, no other program can encroach the space used by SnipDock, even if they are maximized.</li>
+<li>You can zoom in or zoom out of the image by scrolling your mouse on the image.</li>
+<li>Any image snipped will be automatically stored in your Pictures folder. So you could also use SnipDock just to snip screen and store the images.</li>
+</ul><hr><h2>
+<a name="screenshots" class="anchor" href="#screenshots"><span class="octicon octicon-link"></span></a>Screenshots:</h2>
 
-              <p><img src="https://f.cloud.github.com/assets/3457240/2302815/5df5d6a6-a18f-11e3-9a7b-fa53516bfef2.png" alt="In Action"></p>
-              </li>
-              <li>
-              <h3>
-                <a name="float-mode" class="anchor" href="#float-mode"><span class="octicon octicon-link"></span></a>Float Mode</h3>
+<ul>
+<li>
+<strong>In Action</strong>
+<img src="https://f.cloud.github.com/assets/3457240/2302815/5df5d6a6-a18f-11e3-9a7b-fa53516bfef2.png" alt="In Action">
+</li>
+<li>
+<strong>Float Mode</strong>
+<img src="https://f.cloud.github.com/assets/3457240/2302817/69043e2a-a18f-11e3-8f8d-213347c4e7dc.png" alt="Float Mode">
+</li>
+<li>
+<strong>Zoom In</strong>
+<img src="https://f.cloud.github.com/assets/3457240/2302816/683bca76-a18f-11e3-98b2-7ffb36dffb87.png" alt="Zoom In">
+</li>
+</ul><hr><p>Create an issue <a href="https://github.com/rahul003/snip-dock/issues?page=1">here</a> if you have any suggestions/problems.</p>
+      </section>
+    </div>
 
-                <p><img src="https://f.cloud.github.com/assets/3457240/2302817/69043e2a-a18f-11e3-8f8d-213347c4e7dc.png" alt="Float Mode"></p>
-                </li><li>
-                <h3>
-                  <a name="zoom-in" class="anchor" href="#zoom-in"><span class="octicon octicon-link"></span></a>Zoom In</h3>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">SnipDock maintained by <a href="https://github.com/rahul003">rahul003</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
 
-                  <p><img src="https://f.cloud.github.com/assets/3457240/2302816/683bca76-a18f-11e3-98b2-7ffb36dffb87.png" alt="Zoom In"></p>
-                  </li>
-                </ul>
-                  <hr><p>Shoot me an email at <a href="mailto:rahulhuilgol@gmail.com">rahulhuilgol@gmail.com</a> if you have any queries/suggestions.</p>
-                </section>
-              </div>
+    
 
-              <!-- FOOTER  -->
-              <div id="footer_wrap" class="outer">
-                <footer class="inner">
-                  <p class="copyright">SnipDock maintained by <a href="https://github.com/rahul003">rahul003</a></p>
-                  <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-                </footer>
-              </div>
-
-
-
-            </body>
-            </html>
+  </body>
+</html>
