@@ -11,7 +11,7 @@ $.ajax({
         gitdl = results.data[0].assets[0].download_count;
         console.log(gitdl);
 
-        $("#downcount").append("<strong style='font-size:20px'> Has been downloaded " +gitdl+" times on Github </strong>");
+        $("#downcount").append("<strong style='font-size:20px'> Number of Downloads: " +gitdl+" on Github </strong>");
     	
     }
 });
