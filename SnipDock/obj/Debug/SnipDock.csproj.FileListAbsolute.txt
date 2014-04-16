@@ -1,0 +1,12 @@
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\bin\Debug\SnipDock.exe
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\bin\Debug\SnipDock.pdb
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\bin\Debug\ShellBasics.dll
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\bin\Debug\ShellBasics.pdb
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\obj\Debug\SnipDock.csprojResolveAssemblyReference.cache
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\obj\Debug\SnipDock.frmMain.resources
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\obj\Debug\SnipDock.Properties.Resources.resources
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\obj\Debug\SnipDock.csproj.GenerateResource.Cache
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\obj\Debug\SnipDock.exe
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\obj\Debug\SnipDock.pdb
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\bin\Debug\SnipDock.exe.config
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\obj\Debug\SnipDock.MoreBox.resources

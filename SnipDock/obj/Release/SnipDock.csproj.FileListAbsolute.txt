@@ -1,0 +1,9 @@
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\bin\Release\SnipDock.exe.config
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\bin\Release\SnipDock.exe
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\bin\Release\ShellBasics.dll
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\obj\Release\SnipDock.csprojResolveAssemblyReference.cache
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\obj\Release\SnipDock.MoreBox.resources
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\obj\Release\SnipDock.frmMain.resources
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\obj\Release\SnipDock.Properties.Resources.resources
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\obj\Release\SnipDock.csproj.GenerateResource.Cache
+C:\Users\rahul\Desktop\snip-dock-master\SnipDock\obj\Release\SnipDock.exe
